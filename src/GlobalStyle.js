@@ -8,9 +8,11 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   html, body {
+    @import url('https://fonts.googleapis.com/css?family=Hind:400,500|Work+Sans:500,900');
     margin: 0;
     padding: 0;
     line-height: 1.15;
+    font-family: 'Hind', sans-serif;
   }
 
   ol, ul {
