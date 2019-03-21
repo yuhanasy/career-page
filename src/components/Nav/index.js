@@ -21,11 +21,21 @@ const Header = () => {
         </a>
         <NavContainer>
           <NavMenu>
-            <Menu>Solutions</Menu>
-            <Menu>Product</Menu>
-            <Menu>Analytic</Menu>
-            <Menu>Case Study</Menu>
-            <Menu>Contact Us</Menu>
+            <Menu>
+              <a href="/">Solutions</a>
+            </Menu>
+            <Menu>
+              <a href="/">Product</a>
+            </Menu>
+            <Menu>
+              <a href="/">Analytic</a>
+            </Menu>
+            <Menu>
+              <a href="/">Case Study</a>
+            </Menu>
+            <Menu>
+              <a href="/">Contact Us</a>
+            </Menu>
           </NavMenu>
           <HiringButton>We are Hiring</HiringButton>
         </NavContainer>
