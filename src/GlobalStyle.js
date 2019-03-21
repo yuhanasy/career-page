@@ -17,6 +17,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   ol, ul {
+    padding: 0;
     list-style: none;
   }
 

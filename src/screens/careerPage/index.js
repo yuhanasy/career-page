@@ -5,6 +5,7 @@ import Hero from "../../components/Hero";
 import Profile from "../../components/Profile";
 import Testimoni from "../../components/Testimoni";
 import NodefluxCulture from "../../components/Culture";
+import OpenJob from "../../components/OpenJob";
 
 class CareerPage extends Component {
   render() {
@@ -15,6 +16,7 @@ class CareerPage extends Component {
         <Profile />
         <Testimoni />
         <NodefluxCulture />
+        <OpenJob />
       </div>
     );
   }

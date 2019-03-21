@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "position": "Software Engineer",
+      "category": "engineering",
+      "location": "Jakarta, Indonesia",
+      "color": "linear-gradient(270deg,#00d6ff,#06f)"
+    },
+    {
+      "position": "AI Researcher",
+      "category": "engineering",
+      "location": "Jakarta, Indonesia",
+      "color": "linear-gradient(270deg,#00d6ff,#06f)"
+    },
+    {
+      "position": "Machine Learning",
+      "category": "engineering",
+      "location": "Jakarta, Indonesia",
+      "color": "linear-gradient(270deg,#00d6ff,#06f)"
+    },
+    {
+      "position": "UX Designer",
+      "category": "design",
+      "location": "Jakarta, Indonesia",
+      "color": "linear-gradient(270deg,#f94,#fc6076);"
+    },
+    {
+      "position": "Project Manager",
+      "category": "product",
+      "location": "Jakarta, Indonesia",
+      "color": "linear-gradient(90deg,#25319e,#81c0ff);"
+    },
+    {
+      "position": "Product Owner",
+      "category": "product",
+      "location": "Jakarta, Indonesia",
+      "color": "linear-gradient(90deg,#25319e,#81c0ff);"
+    }
+  ]
+}
