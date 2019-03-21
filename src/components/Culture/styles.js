@@ -5,8 +5,8 @@ import { Section } from "../../shared/layout/styles";
 export const CultureSection = styled(Section)`
   position: relative;
   background-color: transparent;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 240px;
+  padding-bottom: 200px;
 `;
 
 export const CultureBackground = styled.svg`
@@ -14,8 +14,8 @@ export const CultureBackground = styled.svg`
   top: 0;
   left: 0;
   width: 100%;
-  height: 800px;
-  background: linear-gradient(to left, #683d83, #1b0347);
+  height: 1300px;
+  /* background: linear-gradient(to left, #683d83, #1b0347); */
 `;
 
 export const PhotoCollage = styled.div`

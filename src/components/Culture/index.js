@@ -12,7 +12,23 @@ import photo5 from "../../images/photo5.png";
 const NodefluxCulture = () => {
   return (
     <CultureSection>
-      <CultureBackground />
+      <CultureBackground viewBox="0 0 100 100" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#1b0347" />
+            <stop offset="100%" stop-color="#683d83" />
+          </linearGradient>
+        </defs>
+        <rect
+          x="-6"
+          y="10"
+          width="112"
+          height="80"
+          rx="5"
+          transform="rotate(8 50 50)"
+          fill="url(#grad1)"
+        />
+      </CultureBackground>
       <SectionHeader
         title="Live at Nodeflux"
         desc="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt ea possimus unde. Autem ex cum consequatur illo sequi ratione consectetur."

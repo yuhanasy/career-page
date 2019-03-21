@@ -12,8 +12,8 @@ export const HeroBackground = styled.svg`
   top: 0;
   left: 0;
   width: 100%;
-  height: 900px;
-  background: linear-gradient(to left, #683d83, #1b0347);
+  height: 1000px;
+  /* background: linear-gradient(to left, #683d83, #1b0347); */
 `;
 
 export const HeroContent = styled.div`

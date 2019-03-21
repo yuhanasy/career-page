@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-import { Paragraph } from "../../shared/typography/styles";
 import { Section } from "../../shared/layout/styles";
 
 export const FooterSection = styled(Section)`
@@ -16,7 +15,7 @@ export const FooterBackground = styled.svg`
   right: 0;
   width: 100%;
   height: 800px;
-  background: linear-gradient(115deg, #dd9fff, #8760ff);
+  /* background: linear-gradient(115deg, #dd9fff, #8760ff); */
 `;
 
 export const ContactWrapper = styled.div`

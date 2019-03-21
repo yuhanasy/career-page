@@ -16,7 +16,38 @@ import nodefluxWhite from "../../images/nodeflux-white.png";
 const Footer = () => {
   return (
     <FooterSection>
-      <FooterBackground />
+      <FooterBackground viewBox="0 0 100 100" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#1b0347" />
+            <stop offset="100%" stop-color="#683d83" />
+          </linearGradient>
+          <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#dd9fff" />
+            <stop offset="100%" stop-color="#8760ff" />
+          </linearGradient>
+        </defs>
+        <rect
+          x="4"
+          y="4"
+          width="100"
+          height="100"
+          rx="5"
+          ry="8"
+          transform="rotate(-20 110 0)"
+          fill="url(#grad1)"
+        />
+        <rect
+          x="0"
+          y="0"
+          width="140"
+          height="100"
+          rx="5"
+          ry="8"
+          transform="rotate(20)"
+          fill="url(#grad2)"
+        />
+      </FooterBackground>
       <ContactWrapper>
         <SectionHeader
           title="Don't see what you looking for"
