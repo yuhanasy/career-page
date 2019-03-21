@@ -14,11 +14,11 @@ export const HeroBackground = styled.svg`
   width: 100%;
   height: 900px;
   background: linear-gradient(to left, #683d83, #1b0347);
-  z-index: -1;
 `;
 
 export const HeroContent = styled.div`
   width: 50%;
+  position: relative;
 `;
 
 export const HeroImage = styled.div`

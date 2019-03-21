@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const BigTitle = styled.h1`
+  position: relative;
   font-family: "Work Sans", sans-serif;
   font-size: 48px;
   font-weight: 500;
