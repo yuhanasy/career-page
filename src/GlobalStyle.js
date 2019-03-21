@@ -13,6 +13,7 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     line-height: 1.15;
     font-family: 'Hind', sans-serif;
+    background-color: #F8F9FF;
   }
 
   ol, ul {

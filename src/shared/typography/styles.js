@@ -14,12 +14,13 @@ export const SectionTitle = styled.h2`
   font-weight: 500;
   color: white;
   margin: 0;
+  color: ${props => props.color || "white"};
 `;
 
 export const InfoTitle = styled.h3`
   font-size: 18px;
   font-weight: 500;
-  color: white;
+  color: ${props => props.color || "white"};
 `;
 
 export const Paragraph = styled.p`
