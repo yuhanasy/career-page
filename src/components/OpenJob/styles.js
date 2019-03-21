@@ -4,7 +4,7 @@ import { InfoTitle, Paragraph } from "../../shared/typography/styles";
 import { Section } from "../../shared/layout/styles";
 
 export const JobSection = styled(Section)`
-  padding-top: 120px;
+  padding-top: 80px;
   padding-bottom: 120px;
 `;
 
@@ -36,7 +36,6 @@ export const TabWrapper = styled.ul`
 `;
 
 export const JobCard = styled.div`
-  width: 100%;
   height: 100px;
   padding: 20px;
   background: ${props => props.color};

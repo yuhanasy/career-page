@@ -4,6 +4,7 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   html {
+    margin: 0;
     line-height: 1.15;
   }
 

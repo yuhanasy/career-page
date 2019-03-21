@@ -10,8 +10,6 @@ import data from "./constants.json";
 const Profile = () => {
   const { profileData } = data;
 
-  profileData.map(profile => console.log(profile.title));
-
   return (
     <Section>
       <SectionHeader

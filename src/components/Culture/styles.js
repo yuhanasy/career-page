@@ -6,6 +6,7 @@ export const CultureSection = styled(Section)`
   position: relative;
   background-color: transparent;
   padding-top: 80px;
+  padding-bottom: 80px;
 `;
 
 export const CultureBackground = styled.svg`
@@ -13,7 +14,7 @@ export const CultureBackground = styled.svg`
   top: 0;
   left: 0;
   width: 100%;
-  height: 900px;
+  height: 800px;
   background: linear-gradient(to left, #683d83, #1b0347);
 `;
 
