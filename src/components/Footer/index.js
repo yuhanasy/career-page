@@ -19,12 +19,12 @@ const Footer = () => {
       <FooterBackground viewBox="0 0 100 100" preserveAspectRatio="none">
         <defs>
           <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#1b0347" />
-            <stop offset="100%" stop-color="#683d83" />
+            <stop offset="0%" stopColor="#1b0347" />
+            <stop offset="100%" stopColor="#683d83" />
           </linearGradient>
           <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#dd9fff" />
-            <stop offset="100%" stop-color="#8760ff" />
+            <stop offset="0%" stopColor="#dd9fff" />
+            <stop offset="100%" stopColor="#8760ff" />
           </linearGradient>
         </defs>
         <rect

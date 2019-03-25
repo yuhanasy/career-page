@@ -15,8 +15,8 @@ const NodefluxCulture = () => {
       <CultureBackground viewBox="0 0 100 100" preserveAspectRatio="none">
         <defs>
           <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#1b0347" />
-            <stop offset="100%" stop-color="#683d83" />
+            <stop offset="0%" stopColor="#1b0347" />
+            <stop offset="100%" stopColor="#683d83" />
           </linearGradient>
         </defs>
         <rect

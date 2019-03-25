@@ -21,14 +21,16 @@ export const TabWrapper = styled.ul`
   width: 75%;
   margin: 0 auto;
   color: #726e91;
+  cursor: pointer;
 
   display: flex;
   justify-content: space-around;
   align-items: center;
 
   li {
-    display: inline-block;
-    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    border-bottom: 2px solid
+      ${props => (props.active === 1 ? "#dd9fff" : "transparent")};
+
     :hover {
       border-bottom: 2px solid #dd9fff;
     }
