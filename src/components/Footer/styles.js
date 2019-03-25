@@ -31,6 +31,7 @@ export const ContactWrapper = styled.div`
 export const ContactPict = styled.img`
   max-height: 400px;
   border-radius: 4px;
+  box-shadow: 0px 14px 50px -30px black;
 `;
 
 export const FooterWrapper = styled.footer`

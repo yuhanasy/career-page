@@ -24,6 +24,7 @@ export const CarouselPict = styled.img`
   width: 100%;
   max-height: 400px;
   border-radius: 4px;
+  box-shadow: 0px 14px 50px -30px black;
 `;
 
 export const CarouselCredit = styled(Paragraph)`

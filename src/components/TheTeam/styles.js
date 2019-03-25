@@ -11,6 +11,7 @@ export const BoxTeam = styled.div`
   right: -6%;
   background: linear-gradient(115deg, #dd9fff, #8760ff);
   opacity: 0.9;
+  box-shadow: 0px 14px 50px -30px black;
 
   ::before {
     content: "";

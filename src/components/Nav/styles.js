@@ -4,14 +4,14 @@ import { Button } from "../../shared/Button/styles";
 
 export const HeaderWrapper = styled.header`
   position: fixed;
-  /* background: linear-gradient(to right, #683d83, #1b0347); */
+  background: linear-gradient(to left, #683d83, #1b0347);
   top: 0;
   z-index: 100;
   width: 100%;
 `;
 
 export const HeaderContent = styled.div`
-  padding: 2rem 6%;
+  padding: 1rem 6%;
   display: flex;
   justify-content: space-between;
 `;

@@ -42,6 +42,7 @@ export const JobCard = styled.div`
   padding: 20px;
   background: ${props => props.color};
   border-radius: 8px;
+  box-shadow: 0px 14px 50px -30px black;
 
   display: flex;
   flex-direction: column;
